@@ -2,4 +2,28 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+:root {
+    --main-background: #082f49;
+    --text-color: #f5f5f4;
+    --nav-background: #075985;
+}
+
+body {
+    background-color: var(--main-background);
+    color: var(--text-color);
+
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: #082f49;
+}
+
+
